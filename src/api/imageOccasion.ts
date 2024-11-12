@@ -58,7 +58,6 @@ function openOcclusionEditor(img:HTMLElement){
 export function occasionLoad({detail}: any){
     detail = detail.protyle
     console.log("加载遮挡")
-    console.log(detail)
     let open = settingList.getSetting()["图像遮挡"]
     if (!open){
         return;
